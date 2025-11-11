@@ -1,4 +1,5 @@
 const { Client, GatewayIntentBits, EmbedBuilder, SlashCommandBuilder, PermissionFlagsBits } = require('discord.js');
+global.WebSocket = require('ws');
 
 const client = new Client({ 
   intents: [
